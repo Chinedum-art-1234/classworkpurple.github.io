@@ -1,0 +1,1833 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial','DM Sans','Poppins', sans-serif;
+}
+
+body{
+    background-color: #e1ecec;
+}
+
+
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex-cont{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    max-width: 42.5%;
+    border-radius: 10px;
+    height: auto;
+    padding: 20px;
+}
+
+
+
+
+
+.flex-item1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0%;
+}
+
+.flex-item1 img{
+    max-width: 15%;
+    margin: 0;
+}
+
+
+
+
+
+.flex-item2 p{
+    font-size: 35px;
+    font-weight: 400;
+    margin: 5px 0px 10px 0px;
+}
+
+
+
+
+.flex-item3 p{
+    color: rgba(128, 128, 128, 0.9);
+}
+
+
+
+
+
+.flex-item4 form{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px 20px 0px;
+    width: 100%;
+}
+
+.flex-item4 input{
+    padding: 10px;
+    width: 17rem;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid gainsboro;
+    margin-top: 5px;
+}
+
+.flex-item4 select{
+    padding: 10px;
+    width: 17rem;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid gainsboro;
+    margin-top: 5px;
+}
+
+.flex-item4 button{
+    width: 17rem;
+    padding: 10px;
+}
+
+
+.flex-item4 .section{
+    margin: 0px 20px 20px 0px;
+}
+
+.flex-item4 .section .cancel{
+    background-color: white;
+    font-weight: 600;
+    border: none;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+}
+
+.flex-item4 .section .cancel:hover{
+    background-color: gainsboro;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border: 2px solid gainsboro;
+    transition: 150ms ease;
+    border-radius: 5px;
+}
+
+.flex-item4 .section .confirm{
+    background-color: #4931a8;
+    color: white;
+    font-weight: 600;
+    border: 2px solid #4931a8;
+    border-radius: 5px;
+}
+
+.flex-item4 .section .confirm:hover{
+    background-color: #3c288b;
+    color: white;
+    font-weight: 600;
+    border: 2px solid #3c288b;
+    transition: 150ms ease;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.flex-item5{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.hyperlink-t{
+    color: rgba(128, 128, 128, 0.9);
+    margin-right: 5px;
+}
+
+.hyperlink a{
+    text-decoration: none;
+    color: #4931a8;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+@media (min-width:1440px) and (max-width:1469px){
+    
+.flex-cont{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    max-width: 42.5%;
+    border-radius: 10px;
+    height: auto;
+    padding: 20px;
+}
+
+
+
+
+
+.flex-item1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0%;
+}
+
+.flex-item1 img{
+    max-width: 14%;
+    margin: 0;
+}
+
+
+
+
+
+.flex-item2 p{
+    font-size: 35px;
+    font-weight: 400;
+    margin: 5px 0px 10px 0px;
+}
+
+
+
+
+.flex-item3 p{
+    color: rgba(128, 128, 128, 0.9);
+}
+
+
+
+
+
+.flex-item4 form{
+    display: flex;
+
+    flex-wrap: wrap;
+    margin: 30px 0px 20px 0px;
+    width: 100%;
+}
+
+.flex-item4 input{
+    padding: 10px;
+    width: 16rem;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid gainsboro;
+    margin-top: 5px;
+}
+
+.flex-item4 select{
+    padding: 10px;
+    width: 16rem;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid gainsboro;
+    margin-top: 5px;
+}
+
+.flex-item4 button{
+    width: 16rem;
+    padding: 10px;
+}
+
+
+.flex-item4 .section{
+    margin: 0px 20px 20px 0px;
+}
+
+.flex-item4 .section .cancel{
+    background-color: white;
+    font-weight: 600;
+    border: none;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+}
+
+.flex-item4 .section .cancel:hover{
+    background-color: gainsboro;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border: 2px solid gainsboro;
+    transition: 150ms ease;
+    border-radius: 5px;
+}
+
+.flex-item4 .section .confirm{
+    background-color: #4931a8;
+    color: white;
+    font-weight: 600;
+    border: 2px solid #4931a8;
+    border-radius: 5px;
+}
+
+.flex-item4 .section .confirm:hover{
+    background-color: #3c288b;
+    color: white;
+    font-weight: 600;
+    border: 2px solid #3c288b;
+    transition: 150ms ease;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.flex-item5{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.hyperlink-t{
+    color: rgba(128, 128, 128, 0.9);
+    margin-right: 5px;
+}
+
+.hyperlink a{
+    text-decoration: none;
+    color: #4931a8;
+    font-weight: 500;
+}
+}
+
+@media (min-width:1400px) and (max-width:1440px){
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 42.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    
+    .flex-item1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+    }
+    
+    .flex-item1 img{
+        max-width: 14%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    
+    .flex-item2 p{
+        font-size: 35px;
+        font-weight: 400;
+        margin: 5px 0px 10px 0px;
+    }
+    
+    
+    
+    
+    .flex-item3 p{
+        color: rgba(128, 128, 128, 0.9);
+    }
+    
+    
+    
+    
+    
+    .flex-item4 form{
+        display: flex;
+    
+        flex-wrap: wrap;
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    .flex-item4 input{
+        padding: 10px;
+        width: 16rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 16rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 16rem;
+        padding: 10px;
+    }
+    
+    
+    .flex-item4 .section{
+        margin: 0px 20px 20px 0px;
+    }
+    
+    .flex-item4 .section .cancel{
+        background-color: white;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .cancel:hover{
+        background-color: gainsboro;
+        color: black;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        transition: 150ms ease;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .confirm{
+        background-color: #4931a8;
+        color: white;
+        font-weight: 600;
+        border: 2px solid #4931a8;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .confirm:hover{
+        background-color: #3c288b;
+        color: white;
+        font-weight: 600;
+        border: 2px solid #3c288b;
+        transition: 150ms ease;
+        border-radius: 5px;
+    }
+    
+    
+    
+    
+    
+    
+    .flex-item5{
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    
+    .hyperlink-t{
+        color: rgba(128, 128, 128, 0.9);
+        margin-right: 5px;
+    }
+    
+    .hyperlink a{
+        text-decoration: none;
+        color: #4931a8;
+        font-weight: 500;
+    }
+}
+
+@media (min-width:1300px) and (max-width:1400px){
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 42.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    
+    .flex-item1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+    }
+    
+    .flex-item1 img{
+        max-width: 14%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    
+    .flex-item2 p{
+        font-size: 35px;
+        font-weight: 400;
+        margin: 5px 0px 10px 0px;
+    }
+    
+    
+    
+    
+    .flex-item3 p{
+        color: rgba(128, 128, 128, 0.9);
+    }
+    
+    
+    
+    
+    
+    .flex-item4 form{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    .flex-item4 input{
+        padding: 10px;
+        width: 14rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 14rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 14rem;
+        padding: 10px;
+    }
+    
+    
+    .flex-item4 .section{
+        margin: 0px 20px 20px 0px;
+    }
+    
+    .flex-item4 .section .cancel{
+        background-color: white;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .cancel:hover{
+        background-color: gainsboro;
+        color: black;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        transition: 150ms ease;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .confirm{
+        background-color: #4931a8;
+        color: white;
+        font-weight: 600;
+        border: 2px solid #4931a8;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .confirm:hover{
+        background-color: #3c288b;
+        color: white;
+        font-weight: 600;
+        border: 2px solid #3c288b;
+        transition: 150ms ease;
+        border-radius: 5px;
+    }
+    
+    
+    
+    
+    
+    
+    .flex-item5{
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    
+    .hyperlink-t{
+        color: rgba(128, 128, 128, 0.9);
+        margin-right: 5px;
+    }
+    
+    .hyperlink a{
+        text-decoration: none;
+        color: #4931a8;
+        font-weight: 500;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1300px){
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 42.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    
+    .flex-item1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+    }
+    
+    .flex-item1 img{
+        max-width: 14%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    
+    .flex-item2 p{
+        font-size: 35px;
+        font-weight: 400;
+        margin: 5px 0px 10px 0px;
+    }
+    
+    
+    
+    
+    .flex-item3 p{
+        color: rgba(128, 128, 128, 0.9);
+    }
+    
+    
+    
+    
+    
+    .flex-item4 form{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    .flex-item4 input{
+        padding: 10px;
+        width: 13rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 13rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 13rem;
+        padding: 10px;
+    }
+}
+
+@media (min-width:1124px) and (max-width:1200px){
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 41.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    
+    .flex-item1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+    }
+    
+    .flex-item1 img{
+        max-width: 14%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    
+    .flex-item2 p{
+        font-size: 35px;
+        font-weight: 400;
+        margin: 5px 0px 10px 0px;
+    }
+    
+    
+    
+    
+    .flex-item3 p{
+        color: rgba(128, 128, 128, 0.9);
+    }
+    
+    
+    
+    
+    
+    .flex-item4 form{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    .flex-item4 input{
+        padding: 10px;
+        width: 11rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 11rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 11rem;
+        padding: 10px;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1124px){
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 41.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    
+    .flex-item1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+    }
+    
+    .flex-item1 img{
+        max-width: 14%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    
+    .flex-item2 p{
+        font-size: 35px;
+        font-weight: 400;
+        margin: 5px 0px 10px 0px;
+    }
+    
+    
+    
+    
+    .flex-item3 p{
+        color: rgba(128, 128, 128, 0.9);
+    }
+    
+    
+    
+    
+    
+    .flex-item4 form{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    .flex-item4 input{
+        padding: 10px;
+        width: 10rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 10rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 10rem;
+        padding: 10px;
+    }
+}
+
+@media (min-width:940px) and (max-width:1000px){
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 41.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    
+    .flex-item1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+    }
+    
+    .flex-item1 img{
+        max-width: 14%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    
+    .flex-item2 p{
+        font-size: 35px;
+        font-weight: 400;
+        margin: 5px 0px 10px 0px;
+    }
+    
+    
+    
+    
+    .flex-item3 p{
+        color: rgba(128, 128, 128, 0.9);
+    }
+    
+    
+    
+    
+    
+    .flex-item4 form{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    .flex-item4 input{
+        padding: 10px;
+        width: 22rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 22rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 22rem;
+        padding: 10px;
+    }
+}
+
+@media (min-width:840px) and (max-width:940px){
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 41.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    
+    .flex-item1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+    }
+    
+    .flex-item1 img{
+        max-width: 14%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    
+    .flex-item2 p{
+        font-size: 35px;
+        font-weight: 400;
+        margin: 5px 0px 10px 0px;
+    }
+    
+    
+    
+    
+    .flex-item3 p{
+        color: rgba(128, 128, 128, 0.9);
+    }
+    
+    
+    
+    
+    
+    .flex-item4 form{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    .flex-item4 input{
+        padding: 10px;
+        width: 18rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 18rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 18rem;
+        padding: 10px;
+    }
+}
+
+@media (825px < width < 840px){
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 41.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    
+    .flex-item1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+    }
+    
+    .flex-item1 img{
+        max-width: 14%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    
+    .flex-item2 p{
+        font-size: 35px;
+        font-weight: 400;
+        margin: 5px 0px 10px 0px;
+    }
+    
+    
+    
+    
+    .flex-item3 p{
+        color: rgba(128, 128, 128, 0.9);
+    }
+    
+    
+    
+    
+    
+    .flex-item4 form{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    .flex-item4 input{
+        padding: 10px;
+        width: 18rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 18rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 18rem;
+        padding: 10px;
+    }
+}
+
+@media (min-width:725px) and (max-width:825px){
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 42.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    
+    .flex-item1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+    }
+    
+    .flex-item1 img{
+        max-width: 14%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    
+    .flex-item2 p{
+        font-size: 35px;
+        font-weight: 400;
+        margin: 5px 0px 10px 0px;
+    }
+    
+    
+    
+    
+    .flex-item3 p{
+        color: rgba(128, 128, 128, 0.9);
+    }
+    
+    
+    
+    
+    
+    .flex-item4 form{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    .flex-item4 input{
+        padding: 10px;
+        width: 17rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 17rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 17rem;
+        padding: 10px;
+    }
+    
+    
+    .flex-item4 .section{
+        margin: 0px 20px 20px 0px;
+    }
+    
+    .flex-item4 .section .cancel{
+        background-color: white;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .cancel:hover{
+        background-color: gainsboro;
+        color: black;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        transition: 150ms ease;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .confirm{
+        background-color: #4931a8;
+        color: white;
+        font-weight: 600;
+        border: 2px solid #4931a8;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .confirm:hover{
+        background-color: #3c288b;
+        color: white;
+        font-weight: 600;
+        border: 2px solid #3c288b;
+        transition: 150ms ease;
+        border-radius: 5px;
+    }
+    
+    
+    
+    
+    
+    
+    .flex-item5{
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    
+    .hyperlink-t{
+        color: rgba(128, 128, 128, 0.9);
+        margin-right: 5px;
+    }
+    
+    .hyperlink a{
+        text-decoration: none;
+        color: #4931a8;
+        font-weight: 500;
+    }
+}
+
+@media (min-width:700px) and (max-width:725px){
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 42.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    
+    .flex-item1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+    }
+    
+    .flex-item1 img{
+        max-width: 32%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    
+    .flex-item2 p{
+        font-size: 35px;
+        font-weight: 400;
+        margin: 5px 0px 10px 0px;
+    }
+    
+    
+    
+    
+    .flex-item3 p{
+        color: rgba(128, 128, 128, 0.9);
+    }
+    
+    
+    
+    
+    
+    .flex-item4 form{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    .flex-item4 input{
+        padding: 10px;
+        width: 16rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 16rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 16rem;
+        padding: 10px;
+    }
+    
+    
+    .flex-item4 .section{
+        margin: 0px 20px 20px 0px;
+    }
+    
+    .flex-item4 .section .cancel{
+        background-color: white;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .cancel:hover{
+        background-color: gainsboro;
+        color: black;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        transition: 150ms ease;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .confirm{
+        background-color: #4931a8;
+        color: white;
+        font-weight: 600;
+        border: 2px solid #4931a8;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .confirm:hover{
+        background-color: #3c288b;
+        color: white;
+        font-weight: 600;
+        border: 2px solid #3c288b;
+        transition: 150ms ease;
+        border-radius: 5px;
+    }
+    
+    
+    
+    
+    
+    
+    .flex-item5{
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    
+    .hyperlink-t{
+        color: rgba(128, 128, 128, 0.9);
+        margin-right: 5px;
+    }
+    
+    .hyperlink a{
+        text-decoration: none;
+        color: #4931a8;
+        font-weight: 500;
+    }
+}
+
+@media (min-width:700px) and (max-width:725px){
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 42.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    
+    
+    .flex-item1{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+    }
+    
+    .flex-item1 img{
+        max-width: 14%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    .flex-item4 form{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px 20px 0px;
+        width: 100%;
+    }
+    
+    .flex-item4 input{
+        padding: 10px;
+        width: 15rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 15rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 15rem;
+        padding: 10px;
+    }
+    
+
+    
+
+
+    
+
+    }
+    
+
+    @media (min-width:625px) and (max-width:700px){
+
+        .flex-cont{
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            max-width: 66.5%;
+            border-radius: 10px;
+            height: auto;
+            padding: 20px;
+        }
+    
+        .flex-item1 img{
+            max-width: 30%;
+            margin: 0;
+        }
+    
+    
+    
+    
+        .flex-item3 p{
+            color: rgba(128, 128, 128, 0.9);
+            font-size: small;
+        }
+    
+    
+    
+    
+        
+    .flex-item4 input{
+        padding: 10px;
+        width: 23rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 23rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 23rem;
+        padding: 10px;
+    }
+    
+    
+    .flex-item4 .section{
+        margin: 0px 20px 20px 0px;
+    }
+    
+    .flex-item4 .section .cancel{
+        background-color: white;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .cancel:hover{
+        background-color: gainsboro;
+        color: black;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        transition: 150ms ease;
+        border-radius: 5px;
+    }
+    
+    
+    .flex-item5{
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        margin-bottom: 20px;
+        font-size: small;
+    }
+    
+    .hyperlink-t{
+        color: rgba(128, 128, 128, 0.9);
+        margin-right: 5px;
+    }
+    
+    .hyperlink a{
+        text-decoration: none;
+        color: #4931a8;
+        font-weight: 500;
+    }
+    } 
+
+    @media (min-width:525px) and (max-width:625px){
+
+        .flex-cont{
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            max-width: 65.5%;
+            border-radius: 10px;
+            height: auto;
+            padding: 20px;
+        }
+    
+        .flex-item1 img{
+            max-width: 30%;
+            margin: 0;
+        }
+    
+    
+    
+    
+        .flex-item3 p{
+            color: rgba(128, 128, 128, 0.9);
+            font-size: smaller;
+        }
+    
+    
+    
+    
+        
+    .flex-item4 input{
+        padding: 10px;
+        width: 20rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 20rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 20rem;
+        padding: 10px;
+    }
+    
+    
+    .flex-item4 .section{
+        margin: 0px 20px 20px 0px;
+    }
+    
+    .flex-item4 .section .cancel{
+        background-color: white;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .cancel:hover{
+        background-color: gainsboro;
+        color: black;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        transition: 150ms ease;
+        border-radius: 5px;
+    }
+    
+    
+    .flex-item5{
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        margin-bottom: 20px;
+        font-size: smaller;
+    }
+    
+    .hyperlink-t{
+        color: rgba(128, 128, 128, 0.9);
+        margin-right: 5px;
+    }
+    
+    .hyperlink a{
+        text-decoration: none;
+        color: #4931a8;
+        font-weight: 500;
+    }
+    } 
+
+    @media (min-width:425px) and (max-width:525px){
+
+        .flex-cont{
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            max-width: 82.5%;
+            border-radius: 10px;
+            height: auto;
+            padding: 20px;
+        }
+    
+        .flex-item1 img{
+            max-width: 30%;
+            margin: 0;
+        }
+    
+    
+    
+    
+        .flex-item3 p{
+            color: rgba(128, 128, 128, 0.9);
+            font-size: smaller;
+        }
+    
+    
+    
+    
+        
+    .flex-item4 input{
+        padding: 10px;
+        width: 19rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 19rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 19rem;
+        padding: 10px;
+    }
+    
+    
+    .flex-item4 .section{
+        margin: 0px 20px 20px 0px;
+    }
+    
+    .flex-item4 .section .cancel{
+        background-color: white;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        border-radius: 5px;
+    }
+    
+    .flex-item4 .section .cancel:hover{
+        background-color: gainsboro;
+        color: black;
+        font-weight: 600;
+        border: none;
+        border: 2px solid gainsboro;
+        transition: 150ms ease;
+        border-radius: 5px;
+    }
+    
+    
+    .flex-item5{
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        margin-bottom: 20px;
+        font-size: smaller;
+    }
+    
+    .hyperlink-t{
+        color: rgba(128, 128, 128, 0.9);
+        margin-right: 5px;
+    }
+    
+    .hyperlink a{
+        text-decoration: none;
+        color: #4931a8;
+        font-weight: 500;
+    }
+    } 
+
+@media (min-width:347px) and (max-width:425px){
+
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 82.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .flex-item1 img{
+        max-width: 30%;
+        margin: 0;
+    }
+
+
+
+
+    .flex-item3 p{
+        color: rgba(128, 128, 128, 0.9);
+        font-size: smaller;
+    }
+
+
+
+
+    
+.flex-item4 input{
+    padding: 10px;
+    width: 16rem;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid gainsboro;
+    margin-top: 5px;
+}
+
+.flex-item4 select{
+    padding: 10px;
+    width: 16rem;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid gainsboro;
+    margin-top: 5px;
+}
+
+.flex-item4 button{
+    width: 16rem;
+    padding: 10px;
+}
+
+
+.flex-item4 .section{
+    margin: 0px 20px 20px 0px;
+}
+
+.flex-item4 .section .cancel{
+    background-color: white;
+    font-weight: 600;
+    border: none;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+}
+
+.flex-item4 .section .cancel:hover{
+    background-color: gainsboro;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border: 2px solid gainsboro;
+    transition: 150ms ease;
+    border-radius: 5px;
+}
+
+
+.flex-item5{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-bottom: 20px;
+    font-size: smaller;
+}
+
+.hyperlink-t{
+    color: rgba(128, 128, 128, 0.9);
+    margin-right: 5px;
+}
+
+.hyperlink a{
+    text-decoration: none;
+    color: #4931a8;
+    font-weight: 500;
+}
+}
+
+@media (min-width:320px) and (max-width:347px){
+
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        max-width: 82.5%;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .flex-item4 input{
+        padding: 10px;
+        width: 14rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 select{
+        padding: 10px;
+        width: 14rem;
+        border-radius: 5px;
+        border: none;
+        border: 2px solid gainsboro;
+        margin-top: 5px;
+    }
+    
+    .flex-item4 button{
+        width: 14rem;
+        padding: 10px;
+    }
+}
